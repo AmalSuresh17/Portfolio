@@ -53,8 +53,8 @@
       height: 40vh;
     }
     #profile {
-      height: 83vh;
-      margin-bottom: 0;
+      /* height: 83vh; */
+      margin-bottom: 20PX;
     }
     article {
       font-size: 1rem;
