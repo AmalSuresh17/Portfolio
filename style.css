@@ -265,6 +265,9 @@ section{
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
+/* .details-container{
+    height: fit-content;
+} */
 .experience-details-container{
     display: flex;
     justify-content: center;
@@ -272,7 +275,7 @@ section{
 }
 .article-container{
     display: flex;
-    height: 337px;
+    /* height: 337px; */
     flex-direction: row;
     text-align: initial;
     flex-wrap: wrap;
@@ -302,6 +305,9 @@ article .icon{
   .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
+  }
+  .art-img{
+    height: 337px;
   }
   .img-1{
     width: 344px;
