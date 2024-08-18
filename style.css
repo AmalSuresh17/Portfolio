@@ -372,9 +372,25 @@ article .icon{
   footer p{
     text-align: center;
   }
-
-  @media (max-width: 1023px) {
-    body {
+/* Hide main content on mobile */
+@media (max-width: 1024px) {
+    .large-screen {
+      display: none;
+    }
+    
+    .mobile-message {
+      display: block;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.2em;
+      color: #ff0000; /* Adjust the color as needed */
+      background-color: #f9f9f9; /* Adjust the background color as needed */
+    }
+  }
+  
+  /* Ensure the message is hidden on larger screens */
+  @media (min-width: 1025px) {
+    .mobile-message {
       display: none;
     }
   }
